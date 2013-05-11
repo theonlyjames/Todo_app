@@ -7,6 +7,11 @@ gem 'rails', '3.2.8'
 
 gem 'pg'
 gem 'heroku'
+gem 'haml'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'twitter'
+gem 'twitter-text'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -43,39 +48,3 @@ gem 'puma'
 gem 'pry-rails'
 gem 'letters'
 
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
-
-# testing and CI stuff
-# group :test, :development do
-#   gem 'simplecov', :require => false
-#   gem 'ci_reporter', '1.7.0'
-#   gem 'simplecov-rcov', :require => false
-#   gem 'rspec-rails', '~> 2.0'
-#   gem 'capybara'
-#   gem 'guard'
-#   gem 'guard-rspec'
-#   gem 'guard-jasmine'
-#   gem 'rb-fsevent', '~> 0.9.1'
-#   #gem 'jasmine-rails'
-#   gem 'jasminerice'
-#   gem 'jasmine'
-#   gem 'headless'
-#   gem 'jasmine-headless-webkit'
-#   gem 'sinon-rails'
-#   gem "growl"
-#   gem 'growl_notify'
-# end
-
-# # group :deployment do
-# #   gem 'capistrano'
-# #   gem 'capistrano-ext'
-# # end
-
-# group :test do
-#   gem 'webmock'
-#   gem 'vcr'
-# end
