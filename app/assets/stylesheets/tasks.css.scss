@@ -18,6 +18,13 @@ body {
 		background-color: transparent;
 	}
 }
+.delete {
+	cursor: pointer;
+}
+legend {
+	border-bottom: none;
+	margin-bottom: 0;
+}
 footer {
 	position: absolute;
 	bottom: 10px;

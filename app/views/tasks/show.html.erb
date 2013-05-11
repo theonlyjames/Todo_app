@@ -20,4 +20,7 @@
               :method => 'delete',
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
+  <%= link_to t('.sign_out', :default => t("button.sign_out")), 
+              :method => 'delete',
+              sign_out_path, :class => 'btn btn-danger' %>
 </div>
