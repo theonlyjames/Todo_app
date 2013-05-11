@@ -1,5 +1,31 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+  app:
+    author: "James Khatiblou"
+    description: "A test project for shopsavvy"
+    description_html: "Todo Application"
+    name: "Shopsavvy Todo"
+  button:
+    sign_in: "Sign in with Twitter"
+    sign_out: "Sign out"
+    edit: "Edit"
+    new: "New"
+  help:
+    sign_in: "Start by pressing this button to authenticate with Twitter."
+  link:
+    omniauth_html: "<a href=\"https://rubygems.org/gems/omniauth\">OmniAuth</a>"
+    ruby_on_rails_html: "<a href=\"http://rubyonrails.org/\">Ruby on Rails</a>"
+    sign_in_with_twitter_html: "<a href=\"https://dev.twitter.com/docs/auth/sign-twitter\">Sign in with Twitter</a>"
+    twitter_gem_html: "<a href=\"https://rubygems.org/gems/twitter\">twitter gem</a>"
+  nav:
+    jamesmk: "JamesMK"
+  th:
+    location: "Location"
+    tweets: "Tweets"
+    following: "Following"
+    followers: "Followers"
+    favorites: "Favorites"
+    listed: "Listed"
+  time:
+    ago: "%{time} ago"
+  via:
+    source: "via %{source}"
