@@ -1,0 +1,7 @@
+<%= @task.get('title') %>
+<% if @task.get('completed'): %>
+  <span class="completed btn">Done</span>
+<% else: %>
+  <span class="not completed btn btn-info">Not Done</span>
+<% end %>
+<span class="delete">x</span>
