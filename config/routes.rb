@@ -3,10 +3,10 @@ Todo_app::Application.routes.draw do
 
   resources :tasks
 
-  root :to => 'main#index'
+  root :to => 'main#login'
   get '/auth/twitter/callback', to: 'sessions#create', as: 'callback'
   get '/auth/failure', to: 'sessions#error', as: 'failure'
-  get '/profile', to: 'sessions#show', as: 'show'
+  get '/tasks', to: 'tasks#index', as: 'index'
   delete '/signout', to: 'sessions#destroy', as: 'signout'
   # The priority is based upon order of creation:
   # first created -> highest priority.
