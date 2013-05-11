@@ -99,6 +99,9 @@ GEM
       addressable (~> 2.3)
     less (2.3.2)
       commonjs (~> 0.2.6)
+    less-rails (2.3.3)
+      actionpack (>= 3.1)
+      less (~> 2.3.1)
     letters (0.3.1)
       activesupport
       awesome_print
@@ -212,6 +215,7 @@ DEPENDENCIES
   jquery-rails
   json
   less
+  less-rails
   letters
   omniauth
   omniauth-twitter
