@@ -6,8 +6,7 @@ window.Todo_app =
   init: ->
     new Todo_app.Routers.Tasks()
     Backbone.history.start
-      pushState: true
-      root: '/main/login'
+      root: '/main/index'
 
 $(document).ready ->
   Todo_app.init()
