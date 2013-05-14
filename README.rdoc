@@ -6,5 +6,13 @@ Todo Application
 	- Twitter authentication for login
 	- Local Storage
 	- Auto post to twitter when complete task
+	- Backbone.js 
+	- Coffee Script
+	- SASS
+	- LESS
+	- HAML
+	- unerscore.js
+	- javascript templates
+	- postgresql
 
 Demo: http://todo--app.herokuapp.com/profile

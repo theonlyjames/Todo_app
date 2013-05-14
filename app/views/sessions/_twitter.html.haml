@@ -40,4 +40,3 @@
           = t("time.ago", :time => time_ago_in_words(@user.status.created_at).capitalize)
           = t("via.source", :source => @user.status.source).html_safe
 .row
-  /= render :json => @user

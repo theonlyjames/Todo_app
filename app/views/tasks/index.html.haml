@@ -2,15 +2,8 @@
   .span6.offset3
     #app
     #todo
-/ .row
-/   .span.6.offset3
-/   = form_tag("/new", :method => 'get') do
-/     %fieldset
-/       .form-actions
-/         %button.btn.btn-danger#sign_out
-/           = t("button.new")
 .row
-  .span14
+  .span12
     = form_tag "/auth/twitter", :method => "get", :html => {:class => "form-horizontal"} do
       %fieldset
         %legend
