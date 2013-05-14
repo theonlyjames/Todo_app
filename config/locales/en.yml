@@ -12,10 +12,7 @@ en:
   help:
     sign_in: "Start by pressing this button to authenticate with Twitter."
   link:
-    omniauth_html: "<a href=\"https://rubygems.org/gems/omniauth\">OmniAuth</a>"
-    ruby_on_rails_html: "<a href=\"http://rubyonrails.org/\">Ruby on Rails</a>"
-    sign_in_with_twitter_html: "<a href=\"https://dev.twitter.com/docs/auth/sign-twitter\">Sign in with Twitter</a>"
-    twitter_gem_html: "<a href=\"https://rubygems.org/gems/twitter\">twitter gem</a>"
+    twitter_tweet_html: "!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"https://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");"
   nav:
     jamesmk: "JamesMK"
   th:

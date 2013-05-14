@@ -1,3 +1,10 @@
-Test Todo App
+James Khatiblou.
+jamesmk.com
+github.com/theonlyjames
 
-http://todo--app.herokuapp.com/profile
+Todo Application
+	- Twitter authentication for login
+	- Local Storage
+	- Auto post to twitter when complete task
+
+Demo: http://todo--app.herokuapp.com/profile
