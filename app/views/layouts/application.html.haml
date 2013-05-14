@@ -25,9 +25,7 @@
           = link_to("Sign in with Twitter", root_path, :class => "brand")
           .nav-collapse
             %ul.nav
-              %li
-                %a{:href => "http://www.jamesmk.com"}
-                  = t("nav.jamesmk")
+              = render 'shared/navigation'
     .container
       - if flash[:notice]
         .alert

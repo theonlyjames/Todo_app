@@ -10,7 +10,8 @@ Todo_app::Application.routes.draw do
   get '/auth/twitter/callback', to: 'sessions#create', as: 'callback'
   get '/auth/failure', to: 'sessions#error', as: 'failure'
   get '/profile', to: 'sessions#show', as: 'show'
-  delete '/signout', to: 'sessions#destroy', as: 'signout'
+  match '/signout' => 'sessions#destroy', :as => :signout
+  match '/auth/twitter' => 'sessions#create', :as => :signin
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
