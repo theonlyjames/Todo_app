@@ -51723,3 +51723,1285 @@ Started GET "/tasks" for 127.0.0.1 at 2013-05-11 15:08:24 -0700
 Processing by TasksController#index as JSON
   [1m[35mTask Load (2.1ms)[0m  SELECT "tasks".* FROM "tasks" 
 Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:06:37 -0700
+Connecting to database specified by database.yml
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (15.8ms)
+Compiled bootstrap_and_overrides.css  (1087ms)  (pid 2015)
+Compiled main.css  (24ms)  (pid 2015)
+Compiled scaffolds.css  (7ms)  (pid 2015)
+Compiled tasks.css  (4ms)  (pid 2015)
+Compiled application.css  (1144ms)  (pid 2015)
+Compiled jquery.js  (2ms)  (pid 2015)
+Compiled jquery_ujs.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 2015)
+Compiled twitter/bootstrap.js  (143ms)  (pid 2015)
+Compiled underscore.js  (0ms)  (pid 2015)
+Compiled backbone.js  (0ms)  (pid 2015)
+Compiled todo_backbone.js  (103ms)  (pid 2015)
+Compiled tasks/index.js  (93ms)  (pid 2015)
+Compiled tasks/task.js  (11ms)  (pid 2015)
+Compiled models/task.js  (6ms)  (pid 2015)
+Compiled collections/tasks.js  (4ms)  (pid 2015)
+Compiled views/tasks/index.js  (70ms)  (pid 2015)
+Compiled views/tasks/task.js  (33ms)  (pid 2015)
+Compiled routers/tasks.js  (33ms)  (pid 2015)
+Compiled bootstrap.js  (5ms)  (pid 2015)
+Compiled application.js  (808ms)  (pid 2015)
+Completed 200 OK in 2342ms (Views: 2341.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-13 16:06:40 -0700
+Served asset /bootstrap_and_overrides.css - 200 OK (76ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-13 16:06:40 -0700
+Served asset /main.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /jquery_ujs.js - 200 OK (25ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /tasks.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap.js - 200 OK (21ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (61ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /underscore.js - 200 OK (3ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /backbone.js - 200 OK (3ms)
+
+
+Started GET "/assets/todo_backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /todo_backbone.js - 200 OK (4ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /tasks/index.js - 200 OK (2ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /tasks/task.js - 200 OK (2ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /models/task.js - 200 OK (2ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /collections/tasks.js - 200 OK (3ms)
+
+
+Started GET "/assets/views/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /views/tasks/index.js - 200 OK (2ms)
+
+
+Started GET "/assets/views/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /views/tasks/task.js - 200 OK (2ms)
+
+
+Started GET "/assets/routers/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /routers/tasks.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Served asset /bootstrap.js - 200 OK (2ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-05-13 16:06:41 -0700
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (1.5ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 226ms (Views: 5.2ms | ActiveRecord: 49.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:56:03 -0700
+
+NameError (undefined local variable or method `signTodo_app' for main:Object):
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:56:09 -0700
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:56:10 -0700
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:56:15 -0700
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:56:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2013-05-13 16:56:30 -0700
+
+ActionController::RoutingError (No route matches [GET] "/profile"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/james/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2013-05-13 16:58:11 -0700
+Connecting to database specified by database.yml
+Processing by SessionsController#show as HTML
+Redirected to http://localhost:3000/auth/failure
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/failure" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Processing by SessionsController#error as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (22.0ms)
+Completed 200 OK in 244ms (Views: 243.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /main.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /tasks.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (58ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /underscore.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:12 -0700
+Served asset /backbone.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:13 -0700
+Served asset /collections/tasks.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:13 -0700
+Served asset /tasks/index.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:13 -0700
+Served asset /tasks/task.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:13 -0700
+Served asset /models/task.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/todo_backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:13 -0700
+Served asset /todo_backbone.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:13 -0700
+Served asset /views/tasks/index.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:13 -0700
+Served asset /views/tasks/task.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/routers/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:13 -0700
+Served asset /routers/tasks.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:13 -0700
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-05-13 16:58:13 -0700
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (0.6ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 186ms (Views: 3.6ms | ActiveRecord: 13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:58:27 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:27 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/todo_backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /todo_backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /views/tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /views/tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /routers/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-05-13 16:58:28 -0700
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (1.7ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 14ms (Views: 1.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2013-05-13 16:58:31 -0700
+Processing by SessionsController#show as HTML
+Redirected to http://localhost:3000/auth/failure
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/failure" for 127.0.0.1 at 2013-05-13 16:58:31 -0700
+Processing by SessionsController#error as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:58:31 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Processing by SessionsController#show as HTML
+Redirected to http://localhost:3000/auth/failure
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/failure" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Processing by SessionsController#error as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/todo_backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /todo_backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /models/task.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /views/tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /views/tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /routers/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-05-13 16:58:32 -0700
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (0.6ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/auth/twitter?utf8=%E2%9C%93" for 127.0.0.1 at 2013-05-13 16:58:35 -0700
+
+
+Started GET "/auth/twitter/callback?utf8=%E2%9C%93&oauth_token=zNZ6mmH14742cYJpuxqpS0EYZRUBRGyFwsy3tJZf60&oauth_verifier=thuNdhQODhJZ6Ulu3ykzZOWfL61ynyTxl1BK9xVkSs" for 127.0.0.1 at 2013-05-13 16:58:38 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "oauth_token"=>"zNZ6mmH14742cYJpuxqpS0EYZRUBRGyFwsy3tJZf60", "oauth_verifier"=>"thuNdhQODhJZ6Ulu3ykzZOWfL61ynyTxl1BK9xVkSs"}
+Completed 500 Internal Server Error in 16ms
+
+RuntimeError (---
+provider: twitter
+uid: '625027245'
+info:
+  nickname: Jameskhat
+  name: James Khatiblou
+  location: Newport Beach, California
+  image: http://a0.twimg.com/profile_images/2525288028/bjsfq6xkxy7szxbdx6wl_normal.jpeg
+  description: Everyday Superhero. Front-End Web Programmer. Ninja. Software Engineer.
+    Self Proclaimed brogrammer.
+  urls:
+    Website: http://www.jamesmk.com
+    Twitter: https://twitter.com/Jameskhat
+credentials:
+  token: 625027245-eAl2MPvQAR6p0mNj5zeSbfWljhVLvvA6JOv68Xgv
+  secret: se6pHYCZg5G0zifikbKXceWiJM4D1COCH3CyDHY0nMw
+extra:
+  access_token: !ruby/object:OAuth::AccessToken
+    token: 625027245-eAl2MPvQAR6p0mNj5zeSbfWljhVLvvA6JOv68Xgv
+    secret: se6pHYCZg5G0zifikbKXceWiJM4D1COCH3CyDHY0nMw
+    consumer: !ruby/object:OAuth::Consumer
+      key: CXLTtSALmPvAgRAaBssfw
+      secret: AwRU9B3N3flOlQXwbcc6bs5kyPGfLvZnT3E9qso5M
+      options:
+        :signature_method: HMAC-SHA1
+        :request_token_path: /oauth/request_token
+        :authorize_path: /oauth/authenticate
+        :access_token_path: /oauth/access_token
+        :proxy: !!null 
+        :scheme: :header
+        :http_method: :post
+        :oauth_version: '1.0'
+        :site: https://api.twitter.com
+      http: !ruby/object:Net::HTTP
+        address: api.twitter.com
+        port: 443
+        curr_http_version: '1.1'
+        no_keepalive_server: false
+        close_on_empty_response: false
+        socket: !!null 
+        started: false
+        open_timeout: 30
+        read_timeout: 30
+        debug_output: !!null 
+        use_ssl: true
+        ssl_context: !ruby/object:OpenSSL::SSL::SSLContext
+          cert: !!null 
+          key: !!null 
+          client_ca: !!null 
+          ca_file: !!null 
+          ca_path: !!null 
+          timeout: !!null 
+          verify_mode: 0
+          verify_depth: !!null 
+          verify_callback: !!null 
+          options: -2147480577
+          cert_store: !!null 
+          extra_chain_cert: !!null 
+          client_cert_cb: !!null 
+          tmp_dh_callback: !!null 
+          session_id_context: !!null 
+          session_get_cb: !!null 
+          session_new_cb: !!null 
+          session_remove_cb: !!null 
+          servername_cb: !!null 
+        enable_post_connection_check: true
+        compression: !!null 
+        sspi_enabled: false
+        ssl_version: !!null 
+        key: !!null 
+        cert: !!null 
+        ca_file: !!null 
+        ca_path: !!null 
+        cert_store: !!null 
+        ciphers: !!null 
+        verify_mode: 0
+        verify_callback: !!null 
+        verify_depth: !!null 
+        ssl_timeout: !!null 
+        newimpl: true
+      http_method: :post
+      uri: !ruby/object:URI::HTTPS
+        scheme: https
+        user: !!null 
+        password: !!null 
+        host: api.twitter.com
+        port: 443
+        path: ''
+        query: !!null 
+        opaque: !!null 
+        registry: !!null 
+        fragment: !!null 
+        parser: !!null 
+    params:
+      :oauth_token: 625027245-eAl2MPvQAR6p0mNj5zeSbfWljhVLvvA6JOv68Xgv
+      oauth_token: 625027245-eAl2MPvQAR6p0mNj5zeSbfWljhVLvvA6JOv68Xgv
+      :oauth_token_secret: se6pHYCZg5G0zifikbKXceWiJM4D1COCH3CyDHY0nMw
+      oauth_token_secret: se6pHYCZg5G0zifikbKXceWiJM4D1COCH3CyDHY0nMw
+      :user_id: '625027245'
+      user_id: '625027245'
+      :screen_name: Jameskhat
+      screen_name: Jameskhat
+    response: !ruby/object:Net::HTTPOK
+      http_version: '1.1'
+      code: '200'
+      message: OK
+      header:
+        cache-control:
+        - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+        content-length:
+        - '1676'
+        content-type:
+        - application/json; charset=utf-8
+        date:
+        - Mon, 13 May 2013 23:58:38 GMT
+        etag:
+        - ! '"a32df782875398ac74fbbcd50bd88b9f"'
+        expires:
+        - Tue, 31 Mar 1981 05:00:00 GMT
+        last-modified:
+        - Mon, 13 May 2013 23:58:38 GMT
+        pragma:
+        - no-cache
+        server:
+        - tfe
+        set-cookie:
+        - dnt=1; domain=.twitter.com; path=/; expires=Sun, 14-May-2023 11:58:38 GMT
+        - pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+        - lang=en; path=/
+        - lang=en; path=/
+        - lang=en; path=/
+        - twid=u%3D625027245%7CK4h5AZZshVSJ19bjU94Bfn0LR6g%3D; domain=.twitter.com;
+          path=/; secure
+        - _twitter_sess=BAh7CDoMY3NyZl9pZCIlMjkyMzMzMmU0NTI4ODQyZmUzNGI1MWEwYjFmOWRi%250AZmM6D2NyZWF0ZWRfYXRsKwgE5lSgPgE6B2lkIiVkY2JiY2E0NWQyMjIxMDcw%250ANDJhY2I2NzhhODQxMGEyMg%253D%253D--f5050601129dd49244e3ac941e91d2ef4a95296f;
+          domain=.twitter.com; path=/; HttpOnly
+        - guest_id=v1%3A136848951857110001; Domain=.twitter.com; Path=/; Expires=Wed,
+          13-May-2015 23:58:38 UTC
+        status:
+        - 200 OK
+        strict-transport-security:
+        - max-age=631138519
+        vary:
+        - Accept-Encoding
+        x-access-level:
+        - read-write
+        x-frame-options:
+        - SAMEORIGIN
+        x-mid:
+        - d7da6e3d82d9b2d8d5a6db99e1f1705e2c0bc5f6
+        x-rate-limit-limit:
+        - '15'
+        x-rate-limit-remaining:
+        - '14'
+        x-rate-limit-reset:
+        - '1368490418'
+        x-runtime:
+        - '0.03326'
+        x-transaction:
+        - ac509d4b7c4977c2
+        x-transaction-mask:
+        - a6183ffa5f8ca943ff1b53b5644ef114225c11cd
+        connection:
+        - close
+      body: ! '{"url":"http:\/\/www.jamesmk.com","profile_sidebar_fill_color":"DDEEF6","notifications":false,"name":"James
+        Khatiblou","default_profile_image":false,"location":"Newport Beach, California","profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2525288028\/bjsfq6xkxy7szxbdx6wl_normal.jpeg","contributors_enabled":false,"entities":{"url":{"urls":[{"url":"http:\/\/www.jamesmk.com","display_url":null,"expanded_url":null,"indices":[0,22]}]},"description":{"urls":[]}},"favourites_count":298,"screen_name":"Jameskhat","time_zone":"Arizona","id":625027245,"profile_background_color":"000000","statuses_count":1351,"profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2525288028\/bjsfq6xkxy7szxbdx6wl_normal.jpeg","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/846607076\/a1213b07429d53d704a2742528850228.jpeg","lang":"en","profile_link_color":"333333","utc_offset":-25200,"geo_enabled":true,"default_profile":false,"is_translator":false,"profile_use_background_image":true,"followers_count":2236,"friends_count":325,"profile_text_color":"039C9C","protected":false,"created_at":"Mon
+        Jul 02 19:45:56 +0000 2012","description":"Everyday Superhero. Front-End Web
+        Programmer. Ninja. Software Engineer. Self Proclaimed brogrammer.","follow_request_sent":false,"verified":false,"following":false,"listed_count":0,"id_str":"625027245","profile_banner_url":"https:\/\/si0.twimg.com\/profile_banners\/625027245\/1367596195","profile_sidebar_border_color":"FFFFFF","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/846607076\/a1213b07429d53d704a2742528850228.jpeg","profile_background_tile":false}'
+      read: true
+      socket: !!null 
+      body_exist: true
+  raw_info:
+    url: http://www.jamesmk.com
+    profile_sidebar_fill_color: DDEEF6
+    notifications: false
+    name: James Khatiblou
+    default_profile_image: false
+    location: Newport Beach, California
+    profile_image_url: http://a0.twimg.com/profile_images/2525288028/bjsfq6xkxy7szxbdx6wl_normal.jpeg
+    contributors_enabled: false
+    entities:
+      url:
+        urls:
+        - url: http://www.jamesmk.com
+          display_url: !!null 
+          expanded_url: !!null 
+          indices:
+          - 0
+          - 22
+      description:
+        urls: []
+    favourites_count: 298
+    screen_name: Jameskhat
+    time_zone: Arizona
+    id: 625027245
+    profile_background_color: '000000'
+    statuses_count: 1351
+    profile_image_url_https: https://si0.twimg.com/profile_images/2525288028/bjsfq6xkxy7szxbdx6wl_normal.jpeg
+    profile_background_image_url: http://a0.twimg.com/profile_background_images/846607076/a1213b07429d53d704a2742528850228.jpeg
+    lang: en
+    profile_link_color: '333333'
+    utc_offset: -25200
+    geo_enabled: true
+    default_profile: false
+    is_translator: false
+    profile_use_background_image: true
+    followers_count: 2236
+    friends_count: 325
+    profile_text_color: 039C9C
+    protected: false
+    created_at: Mon Jul 02 19:45:56 +0000 2012
+    description: Everyday Superhero. Front-End Web Programmer. Ninja. Software Engineer.
+      Self Proclaimed brogrammer.
+    follow_request_sent: false
+    verified: false
+    following: false
+    listed_count: 0
+    id_str: '625027245'
+    profile_banner_url: https://si0.twimg.com/profile_banners/625027245/1367596195
+    profile_sidebar_border_color: FFFFFF
+    profile_background_image_url_https: https://si0.twimg.com/profile_background_images/846607076/a1213b07429d53d704a2742528850228.jpeg
+    profile_background_tile: false
+):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/todo_backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /todo_backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /views/tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /views/tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /routers/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-05-13 16:59:08 -0700
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (0.7ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 14ms (Views: 1.1ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/auth/twitter?utf8=%E2%9C%93" for 127.0.0.1 at 2013-05-13 16:59:10 -0700
+
+
+Started GET "/auth/twitter/callback?utf8=%E2%9C%93&oauth_token=yAFbGH0aWD0HXTZoNnffNJ1EBXi5CXMzIZkn5i9XBok&oauth_verifier=kO5KI3nL3bx4ncPrJOu7vuR6GzeJgv6hQJG1gCVnf8g" for 127.0.0.1 at 2013-05-13 16:59:12 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "oauth_token"=>"yAFbGH0aWD0HXTZoNnffNJ1EBXi5CXMzIZkn5i9XBok", "oauth_verifier"=>"kO5KI3nL3bx4ncPrJOu7vuR6GzeJgv6hQJG1gCVnf8g"}
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2013-05-13 16:59:12 -0700
+Processing by SessionsController#show as HTML
+  Rendered sessions/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 399ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/todo_backbone.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /todo_backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/index.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /views/tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/task.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /views/tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /routers/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-05-13 16:59:13 -0700
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (3.8ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 3.8ms)

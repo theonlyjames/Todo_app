@@ -12,3 +12,10 @@ development:
   host: localhost
   user: james
   password: 
+
+test:
+  adapter: postgresql
+  database: sign_in_with_twitter_dev
+  host: localhost
+  user: james
+  password: 

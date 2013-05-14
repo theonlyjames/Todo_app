@@ -50,3 +50,6 @@ gem 'puma'
 gem 'pry-rails'
 gem 'letters'
 
+group :test do
+  gem 'rspec'
+end
