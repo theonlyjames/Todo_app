@@ -3,12 +3,16 @@ class Todo_app.Views.TasksIndex extends Backbone.View
   template: JST['tasks/index']
 
   events:
-    'submit #new_task': 'createTask'
+    'submit #new_task': 'createTask',
+    'click #signout_btn': 'signoutUser'
 
   initialize: ->
     @collection.on('reset', @render, this)
     @collection.on('add', @appendTask, this)
     @collection.on('remove', @render, this)
+
+  signoutUser: ->
+    alert("the sign out button worked!")
 
   render: =>
     console.log "tasks index render"

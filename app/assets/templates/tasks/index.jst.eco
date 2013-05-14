@@ -6,3 +6,5 @@
 </form>
 
 <ul id="tasks"></ul>
+
+<span class="btn btn-danger" id="signout_btn">Sign Out</span>
